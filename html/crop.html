@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../node_modules/cropperjs/dist/cropper.min.css">
+  <link rel="stylesheet" href="../css/crop.css">
+</head>
+<body>
+  <div class="container">
+    <div id="select-img">
+      <h4>Upload Image</h4>
+      <input type="file" id="img" name="img" accept="image/*" src="" >
+  </div>
+    <div>
+      <img src="../Image/product10.jpeg" id="image" class="image">
+      <button id="cropImageBtn">Crop Image</button>
+    </div>
+
+    <img src="" id="output" class="image">
+  </div>
+
+  <script src="../node_modules/cropperjs/dist/cropper.min.js"></script>
+  <script src="../js/crop.js"></script>
+  <script src="../js/sproduct.js"></script>
+</body>
+</html>

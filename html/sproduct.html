@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Custom Spotify Plaques | Pretty Little Shopp </title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="../html/style.css">
+        <link rel="stylesheet" href="../css/sproduct.css">
+        <link rel="stylesheet" href="../node_modules/cropperjs/dist/cropper.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/crop.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="#"><img src="../Image/img.jpeg" class="logo" alt="" width="100" height="100"></a></body>
+
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="Reviews.html">Reviews</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://www.instagram.com/pretty.little.shopp/">Instagram</a></li>
+                    <li id="ld-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                    <a href="#" id="close"><i class="far fa-times"></i></a>
+                </ul>
+             </div>
+             <div id="mobile">
+                <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+
+             </div>
+        </section>
+
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+              <img id="Mainimg" src="../Image/sale1.jpeg" width="100%" alt="">
+              <div class="small-img-group">
+                <div class="small-img-col">
+                    <img id="small-img-1" src="../Image/sale1.jpeg" width="100%" alt="" onclick="changesrc1()">
+                </div>
+                <div class="small-img-col">
+                    <img src="../Image/small1.png" width="100%" id="small-img-2" alt="" onclick="changesrc2()">
+                </div>
+                <div class="small-img-col">
+                    <img src="../Image/small2.jpg" width="100%" id="small-img-3" alt="" onclick="changesrc3()">
+                </div>
+                <div class="small-img-col">
+                    <img src="../Image/small3.jfif" width="100%" id="small-img-4" alt="" onclick="changesrc4()">
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="single-pro-details scroll">
+                <h6>Home / Spotify Plaques</h6>
+                <h4>Custom Spotify Plaque</h4>
+                
+                <select>
+                    <option>Select Size </option>
+                    <option>4'5 inches</option>
+                    <option>6'8 inches</option>
+                    <option>7'9 inches</option>
+                    <option>8'10 inches</option>
+                </select>
+                
+                <input type="number" value="1">
+                <h2>9.99$</h2>
+                <div id="sngname">
+                    <h4>Enter Song Name</h4>
+                    <input class="inp-txt" id="inp-sng-txt" type="text" value="" placeholder="Text">
+                </div>
+                <div id="artname">
+                    <h4>Enter Artist Name</h4>
+                    <input class="inp-txt" id="inp-art-txt" type="text" value="" placeholder="Text">
+                </div>
+                <div class="crp">
+                    <h4>Upload Image</h4>
+                    <button id="crop"><a href="../html/crop.html" target="_blank">Crop</a></button>
+                </div>
+                <div id="hand-txt">
+                    <input type="checkbox" id="note-txt" name="note" value="" onclick="checkdisplay()">
+                    <label id="nt-txt">Add note for 29/-</label>
+                </div>
+                <div id="nt-inp">
+                    <input class="inp-txt" type="text" placeholder="Enter text">
+                </div>
+                <button class="normal">Add to Cart</button>
+                <h4>Product Details</h4>
+                <span>Now physically dedicate a song to your loved ones with the Customisable Spotify Plaques.</span>
+
+                <span>These Customised Spotify Plaques help you express yourself in the best way possible. The Customised Spotify Plaques could be a gift to your friends, family, or special someone, or could simply be a part of your decor and a treat for yourself. The Customisable Spotify Plaque is the perfect gift for Birthdays, Anniversaries, Special Occasions, or just to show yourself and your loved ones what song reminds you of them.</span>
+                    
+                <span>THE CUSTOMISABLE MUSIC PLAQUE COMES ALONG WITH A WOODEN STAND FOR ITS HASSLE-FREE PLACEMENT ON TABLE TOPS.</span>
+            </div>
+        </section>
+
+        <section id="product1" class="section-p1">
+            <h2>Featured Products </h2>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="../Image/product1.jpg" alt="" width="200" height="200">
+                    <div class="des">
+                        <h5>Spotify Plaque</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$9.99</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="../Image/product2.png" alt="" width="200" height="200">
+                    <div class="des">
+                        <h5>Letter Frame</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$12.99</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="../Image/product3.jpeg" alt="" width="200" height="200">
+                    <div class="des">
+                        <h5>Spotify Keychain</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$5.99</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="../Image/product4.jpeg" alt="" width="200" height="200">
+                    <div class="des">
+                        <h5>Polaroids</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$1.99</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="../Image/valentineproduct2.png" alt="" width="200" height="200">
+                    <div class="des">
+                        <h5>Phone Cases</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$10.99</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="../Image/product6.jpeg" alt="" width="200" height="200">
+                    <div class="des">
+                        <h5>Illustrated Frame</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$14.99</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="newstext">
+                <h4>Sign Up For Newletters</h4>
+                <p>Get E-mail updates about our latest products and <span> special offers.</span>
+                  </p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Your email address">
+                <button class="normal">Sign Up</button>
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="../Image/img.jpeg" alt="">
+                <h4>Contact</h4>
+                <p><strong> Address: </strong> Located in Mumbai</p>
+                <p><strong>Phone:</strong> +919867624035</p>
+                <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign Inc</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="../Image/app.jpg" alt="">
+                    <img src="../Image/play.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateways </p>
+                <img src="../Image/pay.png" alt="">
+            </div>
+
+            <div class="copyright">
+                <p>Ⓒ 2022, Pretty Little Shopp </p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="../js/sproduct.js"></script>
+        <script src="../node_modules/cropperjs/dist/cropper.min.js"></script>
+        <script src="../js/crop.js"></script>
+    </body>
+
+</html>

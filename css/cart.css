@@ -1,0 +1,21 @@
+#img1{
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+#img1:hover{
+    opacity: 50%;
+}
+#img2{
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+#img2:hover{
+    opacity: 50%;
+}
+#img3{
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+#img3:hover{
+    opacity: 50%;
+}

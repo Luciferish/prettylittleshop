@@ -1,0 +1,32 @@
+#Mainimg{
+    max-height: 500px;
+    max-width : 1080px;
+}
+.scroll {
+    margin:4px, 4px;
+    padding:4px;
+    height:600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+.inp-txt {
+    width:100%;
+    border-radius: 4px;
+}
+
+#hand-txt{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nt-inp{
+    display:none;
+    margin-bottom: 10px;
+}
